@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贵州茅台深度分析 - A股白酒行业</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .company-detail { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .company-header { 
+            border-bottom: 2px solid #d4af37; 
+            padding-bottom: 25px; 
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .company-logo { font-size: 4rem; }
+        .company-info h1 { font-size: 2rem; margin-bottom: 5px; }
+        .company-code { color: #888; font-size: 1rem; }
+        .price-display {
+            margin-top: 15px;
+            display: flex;
+            align-items: baseline;
+            gap: 15px;
+        }
+        .current-price { font-size: 2.5rem; color: #d4af37; font-weight: 700; }
+        .price-change { font-size: 1.2rem; }
+        .price-change.up { color: #4ecdc4; }
+        .price-change.down { color: #ff6b6b; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #d4af37; }
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .metric-card {
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid rgba(212, 175, 55, 0.2);
+        }
+        .metric-card .label { color: #888; font-size: 0.85rem; }
+        .metric-card .value { color: #f4e4ba; font-size: 1.5rem; font-weight: 700; margin-top: 5px; }
+        .section { margin: 30px 0; }
+        .section h2 { color: #d4af37; margin-bottom: 15px; font-size: 1.2rem; }
+        .section p, .section li { color: #ccc; line-height: 1.8; }
+        .section ul { padding-left: 20px; }
+        .section li { margin-bottom: 10px; }
+        .highlight-box {
+            background: rgba(212, 175, 55, 0.1);
+            border-left: 3px solid #d4af37;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .warning-box {
+            background: rgba(255, 107, 107, 0.1);
+            border-left: 3px solid #ff6b6b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pros, .cons { padding: 20px; border-radius: 8px; }
+        .pros { background: rgba(78, 205, 196, 0.1); }
+        .cons { background: rgba(255, 107, 107, 0.1); }
+        .pros h3 { color: #4ecdc4; }
+        .cons h3 { color: #ff6b6b; }
+        @media (max-width: 768px) {
+            .company-header { flex-direction: column; text-align: center; }
+            .pros-cons { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="company-detail">
+            <a href="../index.html" class="back-link">← 返回首页</a>
+            
+            <div class="company-header">
+                <div class="company-logo">🍶</div>
+                <div class="company-info">
+                    <h1>贵州茅台</h1>
+                    <div class="company-code">600519.SH | 上交所</div>
+                    <div class="price-display">
+                        <span class="current-price">¥1688.00</span>
+                        <span class="price-change up">+1.25%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="label">总市值</div>
+                    <div class="value">2.12万亿</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">PE(TTM)</div>
+                    <div class="value">28.5x</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">毛利率</div>
+                    <div class="value">91.5%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">ROE</div>
+                    <div class="value">32.1%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">营收增速</div>
+                    <div class="value">15.2%</div>
+                </div>
+                <div class="metric-card">
+                    <div class="label">股息率</div>
+                    <div class="value">2.5%</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>🏢 公司概况</h2>
+                <p>贵州茅台酒股份有限公司是中国最大的白酒生产企业，主要生产和销售茅台酒及系列产品。茅台酒是中国国酒，具有800多年的历史，是中国白酒行业的绝对龙头。</p>
+                <p>公司成立于1999年11月，2001年在上交所上市。总部位于贵州省仁怀市茅台镇，拥有得天独厚的地理环境和传统酿造工艺。</p>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>💎 核心竞争力</h3>
+                <ul>
+                    <li><strong>品牌护城河：</strong>国酒地位，品牌价值无可替代</li>
+                    <li><strong>稀缺性：</strong>产能有限，供不应求，具备持续提价能力</li>
+                    <li><strong>极高毛利：</strong>毛利率超过91%，盈利能力极强</li>
+                    <li><strong>存货增值：</strong>基酒越存越值钱，存货是资产而非负担</li>
+                    <li><strong>渠道掌控：</strong>直营占比提升，渠道利润回流公司</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>📊 业务结构</h2>
+                <p><strong>茅台酒：</strong>占比约85%，核心产品，毛利率92%+</p>
+                <p><strong>系列酒：</strong>占比约15%，包括王子酒、迎宾酒等，毛利率70%+</p>
+                <p><strong>销售渠道：</strong>直营占比持续提升，目前约40%</p>
+            </div>
+            
+            <div class="pros-cons">
+                <div class="pros">
+                    <h3>✅ 投资亮点</h3>
+                    <ul>
+                        <li>A股最强商业模式之一</li>
+                        <li>持续提价能力，抗通胀</li>
+                        <li>现金流充沛，分红稳定</li>
+                        <li>行业绝对龙头，难以撼动</li>
+                        <li>管理层稳健，治理良好</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h3>⚠️ 风险因素</h3>
+                    <ul>
+                        <li>估值长期偏高，PE 25-35x</li>
+                        <li>增速放缓，难以维持高增长</li>
+                        <li>政策风险（反腐、限酒）</li>
+                        <li>年轻人饮酒习惯变化</li>
+                        <li>批价波动影响渠道信心</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📈 估值分析</h2>
+                <p>茅台历史上PE中枢在25-35倍之间。当前估值处于历史中位数水平。</p>
+                <ul>
+                    <li><strong>乐观情景：</strong>业绩增速15%+，估值维持30x，目标价2000+</li>
+                    <li><strong>中性情景：</strong>业绩增速10-12%，估值25-28x，目标价1500-1800</li>
+                    <li><strong>悲观情景：</strong>增速降至个位数，估值压缩至20x，目标价1200-1400</li>
+                </ul>
+            </div>
+            
+            <div class="warning-box">
+                <h3>⚠️ 近期关注</h3>
+                <ul>
+                    <li>茅台批价走势（当前约2700-2800元/瓶）</li>
+                    <li>直营渠道改革进展</li>
+                    <li>系列酒增速及盈利能力</li>
+                    <li>管理层变动及战略调整</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>💡 投资建议</h2>
+                <p>茅台是A股最优质的资产之一，适合长期持有。但当前估值不便宜，建议：</p>
+                <ul>
+                    <li><strong>长期投资者：</strong>可作为核心持仓，逢低加仓</li>
+                    <li><strong>短期投资者：</strong>关注批价和业绩拐点</li>
+                    <li><strong>合理买入区间：</strong>PE 25x以下（约1400元以下）更具安全边际</li>
+                </ul>
+            </div>
+            
+            <p style="color: #888; font-size: 0.85rem; margin-top: 30px;">
+                * 以上分析仅供参考，不构成投资建议。股市有风险，投资需谨慎。
+            </p>
+        </div>
+    </div>
+</body>
+</html>

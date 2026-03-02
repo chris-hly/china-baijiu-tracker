@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A股白酒行业分析</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍶 A股白酒行业分析</h1>
+            <p class="subtitle">追踪中国白酒行业动态 | 投资参考</p>
+            <p class="update-time">最后更新：<span id="updateTime">2026年3月2日</span></p>
+        </header>
+
+        <section class="overview">
+            <h2>📊 行业概览</h2>
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <span class="label">行业总市值</span>
+                    <span class="value">约 4.5 万亿</span>
+                </div>
+                <div class="overview-card">
+                    <span class="label">上市公司数</span>
+                    <span class="value">20 家</span>
+                </div>
+                <div class="overview-card">
+                    <span class="label">龙头股</span>
+                    <span class="value highlight">贵州茅台</span>
+                </div>
+                <div class="overview-card">
+                    <span class="label">行业PE</span>
+                    <span class="value">25-35x</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="tier-section">
+            <h2>🏆 白酒梯队划分</h2>
+            
+            <div class="tier-group tier-1">
+                <h3>一线高端（茅五泸）</h3>
+                <p class="tier-desc">品牌护城河深厚，定价权强，抗周期性强</p>
+                <div class="company-grid" id="tier1Companies"></div>
+            </div>
+            
+            <div class="tier-group tier-2">
+                <h3>二线次高端</h3>
+                <p class="tier-desc">全国化扩张中，增长潜力大，竞争激烈</p>
+                <div class="company-grid" id="tier2Companies"></div>
+            </div>
+            
+            <div class="tier-group tier-3">
+                <h3>区域龙头</h3>
+                <p class="tier-desc">深耕区域市场，稳健增长</p>
+                <div class="company-grid" id="tier3Companies"></div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>📈 核心指标对比</h2>
+            <div class="table-container">
+                <table class="data-table" id="comparisonTable">
+                    <thead>
+                        <tr>
+                            <th>公司</th>
+                            <th>市值(亿)</th>
+                            <th>PE(TTM)</th>
+                            <th>毛利率</th>
+                            <th>ROE</th>
+                            <th>营收增速</th>
+                        </tr>
+                    </thead>
+                    <tbody id="comparisonBody"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>💡 投资逻辑分析</h2>
+            <div class="analysis-content">
+                <div class="analysis-item">
+                    <h3>🟢 看好因素</h3>
+                    <ul>
+                        <li><strong>品牌护城河：</strong>高端白酒品牌价值难以复制，百年积淀</li>
+                        <li><strong>定价权：</strong>茅台、五粮液具备持续提价能力</li>
+                        <li><strong>消费升级：</strong>中产阶级扩大，高端消费需求增长</li>
+                        <li><strong>社交属性：</strong>商务宴请、礼品需求刚性</li>
+                        <li><strong>存货增值：</strong>白酒越陈越香，存货不贬值</li>
+                    </ul>
+                </div>
+                <div class="analysis-item warning">
+                    <h3>🔴 风险因素</h3>
+                    <ul>
+                        <li><strong>估值偏高：</strong>龙头股PE长期处于高位</li>
+                        <li><strong>政策风险：</strong>反腐、限酒政策影响</li>
+                        <li><strong>人口结构：</strong>年轻人饮酒习惯变化</li>
+                        <li><strong>经济周期：</strong>商务消费与经济景气度相关</li>
+                        <li><strong>渠道库存：</strong>部分企业渠道压货严重</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>📅 近期关注</h2>
+            <div class="timeline" id="recentEvents">
+                <div class="timeline-item">
+                    <span class="date">2026年3月</span>
+                    <span class="event">年报披露季，关注业绩兑现</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">2026年4月</span>
+                    <span class="event">春季糖酒会，行业风向标</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="date">持续关注</span>
+                    <span class="event">茅台批价走势、渠道改革进展</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>📚 研究资料</h2>
+            <div class="links-grid">
+                <a href="companies/maotai.html" class="link-card">
+                    <span class="icon">🎯</span>
+                    <span class="text">茅台深度分析</span>
+                </a>
+                <a href="companies/wuliangye.html" class="link-card">
+                    <span class="icon">🏆</span>
+                    <span class="text">五粮液深度分析</span>
+                </a>
+                <a href="companies/luzhoulaojiao.html" class="link-card">
+                    <span class="icon">🏺</span>
+                    <span class="text">泸州老窖深度分析</span>
+                </a>
+                <a href="analysis/industry-trend.html" class="link-card">
+                    <span class="icon">📊</span>
+                    <span class="text">行业趋势分析</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="card disclaimer">
+            <h2>⚠️ 免责声明</h2>
+            <p>本网站内容仅供参考，不构成投资建议。股市有风险，投资需谨慎。所有数据来源于公开信息，可能存在滞后或误差。</p>
+        </section>
+
+        <footer>
+            <p>A股白酒行业分析 | 数据来源：东方财富、同花顺等公开信息</p>
+            <p>仅供学习研究使用</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

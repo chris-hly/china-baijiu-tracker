@@ -1,0 +1,148 @@
+{
+  "updateTime": "2026年3月2日",
+  "companies": {
+    "tier1": [
+      {
+        "name": "贵州茅台",
+        "code": "600519.SH",
+        "price": 1688.00,
+        "change": 1.25,
+        "marketCap": 21200,
+        "pe": 28.5,
+        "grossMargin": "91.5%",
+        "roe": "32.1%",
+        "revenueGrowth": "15.2%",
+        "link": "companies/maotai.html"
+      },
+      {
+        "name": "五粮液",
+        "code": "000858.SZ",
+        "price": 156.80,
+        "change": 0.85,
+        "marketCap": 6080,
+        "pe": 22.3,
+        "grossMargin": "75.8%",
+        "roe": "25.6%",
+        "revenueGrowth": "12.8%",
+        "link": "companies/wuliangye.html"
+      },
+      {
+        "name": "泸州老窖",
+        "code": "000568.SZ",
+        "price": 198.50,
+        "change": -0.45,
+        "marketCap": 2920,
+        "pe": 26.8,
+        "grossMargin": "88.2%",
+        "roe": "35.2%",
+        "revenueGrowth": "20.5%",
+        "link": "companies/luzhoulaojiao.html"
+      }
+    ],
+    "tier2": [
+      {
+        "name": "山西汾酒",
+        "code": "600809.SH",
+        "price": 245.30,
+        "change": 2.15,
+        "marketCap": 2990,
+        "pe": 32.5,
+        "grossMargin": "76.5%",
+        "roe": "42.1%",
+        "revenueGrowth": "28.3%",
+        "link": "companies/fenjiu.html"
+      },
+      {
+        "name": "洋河股份",
+        "code": "002304.SZ",
+        "price": 98.65,
+        "change": -1.20,
+        "marketCap": 1488,
+        "pe": 18.6,
+        "grossMargin": "73.2%",
+        "roe": "18.5%",
+        "revenueGrowth": "5.2%",
+        "link": "companies/yanghe.html"
+      },
+      {
+        "name": "古井贡酒",
+        "code": "000596.SZ",
+        "price": 218.90,
+        "change": 1.85,
+        "marketCap": 1155,
+        "pe": 35.2,
+        "grossMargin": "77.8%",
+        "roe": "22.3%",
+        "revenueGrowth": "25.6%",
+        "link": "companies/gujing.html"
+      },
+      {
+        "name": "今世缘",
+        "code": "603369.SH",
+        "price": 52.30,
+        "change": 0.95,
+        "marketCap": 654,
+        "pe": 22.8,
+        "grossMargin": "74.5%",
+        "roe": "24.8%",
+        "revenueGrowth": "18.5%",
+        "link": "companies/jinshiyuan.html"
+      }
+    ],
+    "tier3": [
+      {
+        "name": "口子窖",
+        "code": "603589.SH",
+        "price": 45.80,
+        "change": -0.65,
+        "marketCap": 275,
+        "pe": 16.5,
+        "grossMargin": "72.3%",
+        "roe": "19.2%",
+        "revenueGrowth": "8.2%",
+        "link": "companies/kouzi.html"
+      },
+      {
+        "name": "迎驾贡酒",
+        "code": "604198.SH",
+        "price": 68.50,
+        "change": 1.35,
+        "marketCap": 548,
+        "pe": 24.5,
+        "grossMargin": "68.5%",
+        "roe": "21.5%",
+        "revenueGrowth": "15.8%",
+        "link": "companies/yingjia.html"
+      },
+      {
+        "name": "水井坊",
+        "code": "600779.SH",
+        "price": 58.20,
+        "change": 0.75,
+        "marketCap": 284,
+        "pe": 28.2,
+        "grossMargin": "84.5%",
+        "roe": "28.5%",
+        "revenueGrowth": "12.5%",
+        "link": "companies/shuijingfang.html"
+      },
+      {
+        "name": "舍得酒业",
+        "code": "600702.SH",
+        "price": 85.60,
+        "change": 2.85,
+        "marketCap": 285,
+        "pe": 25.8,
+        "grossMargin": "75.2%",
+        "roe": "26.8%",
+        "revenueGrowth": "35.2%",
+        "link": "companies/shede.html"
+      }
+    ]
+  },
+  "industryData": {
+    "totalMarketCap": "约4.5万亿",
+    "avgPE": "25-35x",
+    "growthRate": "15-20%"
+  }
+}

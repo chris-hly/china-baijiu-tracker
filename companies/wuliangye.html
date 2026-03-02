@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五粮液深度分析 - A股白酒行业</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .company-detail { max-width: 900px; margin: 0 auto; padding: 20px; }
+        .company-header { border-bottom: 2px solid #c0c0c0; padding-bottom: 25px; margin-bottom: 30px; display: flex; align-items: center; gap: 20px; }
+        .company-logo { font-size: 4rem; }
+        .company-info h1 { font-size: 2rem; margin-bottom: 5px; }
+        .company-code { color: #888; font-size: 1rem; }
+        .price-display { margin-top: 15px; display: flex; align-items: baseline; gap: 15px; }
+        .current-price { font-size: 2.5rem; color: #c0c0c0; font-weight: 700; }
+        .price-change { font-size: 1.2rem; }
+        .price-change.up { color: #4ecdc4; }
+        .price-change.down { color: #ff6b6b; }
+        .back-link { display: inline-block; margin-bottom: 20px; color: #c0c0c0; }
+        .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin: 20px 0; }
+        .metric-card { background: rgba(0, 0, 0, 0.3); padding: 20px; border-radius: 10px; text-align: center; border: 1px solid rgba(192, 192, 192, 0.2); }
+        .metric-card .label { color: #888; font-size: 0.85rem; }
+        .metric-card .value { color: #e0e0e0; font-size: 1.5rem; font-weight: 700; margin-top: 5px; }
+        .section { margin: 30px 0; }
+        .section h2 { color: #c0c0c0; margin-bottom: 15px; font-size: 1.2rem; }
+        .section p, .section li { color: #ccc; line-height: 1.8; }
+        .section ul { padding-left: 20px; }
+        .section li { margin-bottom: 10px; }
+        .highlight-box { background: rgba(192, 192, 192, 0.1); border-left: 3px solid #c0c0c0; padding: 20px; margin: 20px 0; border-radius: 0 8px 8px 0; }
+        .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .pros, .cons { padding: 20px; border-radius: 8px; }
+        .pros { background: rgba(78, 205, 196, 0.1); }
+        .cons { background: rgba(255, 107, 107, 0.1); }
+        .pros h3 { color: #4ecdc4; }
+        .cons h3 { color: #ff6b6b; }
+        @media (max-width: 768px) { .company-header { flex-direction: column; text-align: center; } .pros-cons { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="company-detail">
+            <a href="../index.html" class="back-link">← 返回首页</a>
+            
+            <div class="company-header">
+                <div class="company-logo">🏆</div>
+                <div class="company-info">
+                    <h1>五粮液</h1>
+                    <div class="company-code">000858.SZ | 深交所</div>
+                    <div class="price-display">
+                        <span class="current-price">¥156.80</span>
+                        <span class="price-change up">+0.85%</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="metrics-grid">
+                <div class="metric-card"><div class="label">总市值</div><div class="value">6080亿</div></div>
+                <div class="metric-card"><div class="label">PE(TTM)</div><div class="value">22.3x</div></div>
+                <div class="metric-card"><div class="label">毛利率</div><div class="value">75.8%</div></div>
+                <div class="metric-card"><div class="label">ROE</div><div class="value">25.6%</div></div>
+                <div class="metric-card"><div class="label">营收增速</div><div class="value">12.8%</div></div>
+                <div class="metric-card"><div class="label">股息率</div><div class="value">2.8%</div></div>
+            </div>
+            
+            <div class="section">
+                <h2>🏢 公司概况</h2>
+                <p>五粮液集团有限公司是中国第二大白酒企业，以五粮液酒为代表的浓香型白酒龙头。公司位于四川省宜宾市，拥有数百年的酿酒历史。</p>
+                <p>五粮液由五种粮食（高粱、大米、糯米、小麦、玉米）酿造而成，是浓香型白酒的典型代表。</p>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>💎 核心竞争力</h3>
+                <ul>
+                    <li><strong>品牌地位：</strong>浓香型白酒龙头，品牌价值仅次于茅台</li>
+                    <li><strong>产能优势：</strong>产能充足，可满足市场需求增长</li>
+                    <li><strong>产品矩阵：</strong>从高端到中低端全覆盖</li>
+                    <li><strong>估值相对合理：</strong>PE 20-25x，比茅台便宜</li>
+                </ul>
+            </div>
+            
+            <div class="pros-cons">
+                <div class="pros">
+                    <h3>✅ 投资亮点</h3>
+                    <ul>
+                        <li>白酒行业老二，确定性高</li>
+                        <li>估值比茅台便宜</li>
+                        <li>分红稳定，股息率较高</li>
+                        <li>渠道改革见效</li>
+                        <li>浓香龙头地位稳固</li>
+                    </ul>
+                </div>
+                <div class="cons">
+                    <h3>⚠️ 风险因素</h3>
+                    <ul>
+                        <li>品牌力弱于茅台</li>
+                        <li>毛利率低于茅台</li>
+                        <li>提价能力有限</li>
+                        <li>浓香竞争激烈</li>
+                        <li>渠道库存压力</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>💡 投资建议</h2>
+                <p>五粮液是白酒行业的"稳健之选"，适合追求确定性但觉得茅台太贵的投资者。</p>
+                <ul>
+                    <li><strong>合理估值：</strong>PE 18-22x具有较好安全边际</li>
+                    <li><strong>配置建议：</strong>可作为茅台的替代或补充</li>
+                </ul>
+            </div>
+            
+            <p style="color: #888; font-size: 0.85rem; margin-top: 30px;">* 以上分析仅供参考，不构成投资建议。</p>
+        </div>
+    </div>
+</body>
+</html>
