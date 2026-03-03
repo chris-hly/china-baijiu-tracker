@@ -1,36 +1,43 @@
 {
-  "updateTime": "2026年03月02日 18:00 (休市)",
+  "updateTime": "2026年03月03日 14:30 (GMT+8)",
+  "marketSummary": {
+    "trend": "震荡回调",
+    "leadingStock": "贵州茅台",
+    "analysis": "多家机构看好白酒板块修复行情，高端白酒需求强劲，大众价位产品稳健增长，次高端动销承压"
+  },
   "companies": {
     "tier1": [
       {
         "name": "贵州茅台",
         "code": "600519.SH",
-        "price": 1688.0,
-        "change": 1.25,
+        "price": 1440.11,
+        "change": -1.02,
         "marketCap": 21200,
         "pe": 28.5,
         "grossMargin": "91.5%",
         "roe": "32.1%",
         "revenueGrowth": "15.2%",
-        "link": "companies/maotai.html"
+        "link": "companies/maotai.html",
+        "note": "春节期间零售额两位数增长，批发价小幅上涨"
       },
       {
         "name": "五粮液",
         "code": "000858.SZ",
-        "price": 156.8,
-        "change": 0.85,
+        "price": 102.12,
+        "change": 0,
         "marketCap": 6080,
         "pe": 22.3,
         "grossMargin": "75.8%",
         "roe": "25.6%",
         "revenueGrowth": "12.8%",
-        "link": "companies/wuliangye.html"
+        "link": "companies/wuliangye.html",
+        "note": "普五降价刺激需求，春节动销超预期"
       },
       {
         "name": "泸州老窖",
         "code": "000568.SZ",
-        "price": 198.5,
-        "change": -0.45,
+        "price": 107.09,
+        "change": 0,
         "marketCap": 2920,
         "pe": 26.8,
         "grossMargin": "88.2%",
@@ -43,20 +50,21 @@
       {
         "name": "山西汾酒",
         "code": "600809.SH",
-        "price": 245.3,
-        "change": 2.15,
+        "price": 158.52,
+        "change": -1.63,
         "marketCap": 2990,
         "pe": 32.5,
         "grossMargin": "76.5%",
         "roe": "42.1%",
         "revenueGrowth": "28.3%",
-        "link": "companies/fenjiu.html"
+        "link": "companies/fenjiu.html",
+        "note": "次高端承压"
       },
       {
         "name": "洋河股份",
         "code": "002304.SZ",
-        "price": 98.65,
-        "change": -1.2,
+        "price": 51.29,
+        "change": 0,
         "marketCap": 1488,
         "pe": 18.6,
         "grossMargin": "73.2%",
@@ -67,8 +75,8 @@
       {
         "name": "古井贡酒",
         "code": "000596.SZ",
-        "price": 218.9,
-        "change": 1.85,
+        "price": 113.78,
+        "change": 0,
         "marketCap": 1155,
         "pe": 35.2,
         "grossMargin": "77.8%",
@@ -79,8 +87,8 @@
       {
         "name": "今世缘",
         "code": "603369.SH",
-        "price": 52.3,
-        "change": 0.95,
+        "price": 29.89,
+        "change": 0,
         "marketCap": 654,
         "pe": 22.8,
         "grossMargin": "74.5%",
@@ -91,10 +99,22 @@
     ],
     "tier3": [
       {
+        "name": "老白干酒",
+        "code": "600559.SH",
+        "price": 15.14,
+        "change": -2.39,
+        "marketCap": 140,
+        "pe": 18.5,
+        "grossMargin": "65.2%",
+        "roe": "15.8%",
+        "revenueGrowth": "8.5%",
+        "link": "companies/laobaigan.html"
+      },
+      {
         "name": "口子窖",
         "code": "603589.SH",
-        "price": 45.8,
-        "change": -0.65,
+        "price": 27.04,
+        "change": 0,
         "marketCap": 275,
         "pe": 16.5,
         "grossMargin": "72.3%",
@@ -117,8 +137,8 @@
       {
         "name": "水井坊",
         "code": "600779.SH",
-        "price": 58.2,
-        "change": 0.75,
+        "price": 36.2,
+        "change": 0,
         "marketCap": 284,
         "pe": 28.2,
         "grossMargin": "84.5%",
@@ -129,8 +149,8 @@
       {
         "name": "舍得酒业",
         "code": "600702.SH",
-        "price": 85.6,
-        "change": 2.85,
+        "price": 50.19,
+        "change": 0,
         "marketCap": 285,
         "pe": 25.8,
         "grossMargin": "75.2%",
@@ -143,6 +163,24 @@
   "industryData": {
     "totalMarketCap": "约4.5万亿",
     "avgPE": "25-35x",
-    "growthRate": "15-20%"
-  }
+    "growthRate": "15-20%",
+    "institutionView": "多家机构看好修复行情，中信证券认为处于长周期底部，西南证券推荐高端和地产酒"
+  },
+  "news": [
+    {
+      "title": "多家机构看好白酒板块修复行情",
+      "source": "中信证券",
+      "summary": "白酒行业处于长期周期底部，低市场预期下边际改善将大幅提振板块"
+    },
+    {
+      "title": "春节期间高端白酒需求强劲",
+      "source": "多家券商",
+      "summary": "茅台五粮液零售额两位数增长，批发价小幅上涨，渠道信心充足"
+    },
+    {
+      "title": "次高端品类动销承压",
+      "source": "华创证券",
+      "summary": "大众价位产品稳健增长，次高端品类表现相对较弱"
+    }
+  ]
 }
